@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans, Arial, sans-serif;
+}
+
+@font-face {
+	font-family: Open Sans;
+	src: url('fonts/OpenSans-Regular.woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Open Sans;
+	src: url('fonts/OpenSans-Bold.woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+.header {
+	background-image: url('images/football_1920.jpg');
+	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-size: cover;
+  	position: relative;
+}
+
+.header:after {
+	content: "";
+	position: absolute;
+	background-color: #19193b;
+	opacity: 0.9;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.header-wrap {
+	padding: 45px 180px 110px 180px;
+}
+
+.header-logo{
+	width: 10.15%;
+	margin: 0 auto 0 auto;
+}
